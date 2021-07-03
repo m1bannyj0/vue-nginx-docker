@@ -1,6 +1,12 @@
+    npx @vue/cli create vue-nginx-docker
+    cd vue-nginx-docker
+    touch Dockerfile
+    echo "node_modules" > .dockerignore
+
 # vue-nginx-docker
 
 ## Project setup
+
 ```
 npm install
 ```
